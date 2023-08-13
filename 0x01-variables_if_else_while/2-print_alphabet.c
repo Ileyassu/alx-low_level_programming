@@ -1,19 +1,22 @@
 #include <stdio.h>
 
-int main(void){
-	
-	int i;	
-	char alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
-	
-	i = 0;
-	
-	while(i<26)
-	{
-		putchar(alphabet[i]);
-		i++;
-	}
+/**
+ * main - Entry point of the program
+ *
+ * Description: Prints the alphabet in lowercase
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int letter = 'a';
 
+	while (letter <= 'z')
+	{
+		putchar(letter);
+		letter++;
+	}
 	putchar('\n');
 
-	return(0);	
+	return (0);
 }
