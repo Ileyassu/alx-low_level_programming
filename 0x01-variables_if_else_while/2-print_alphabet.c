@@ -3,7 +3,7 @@
 int main(void){
 	
 	int i;	
-	char alphabet[27] = "abcdefghijklmnopkrstuvwxyz";
+	char alphabet[27] = "abcdefghijklmnopqrstuvwxyz";
 	
 	i = 0;
 	
